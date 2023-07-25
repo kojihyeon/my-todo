@@ -54,3 +54,11 @@ form > button {
   cursor: pointer;
   transition: 0.1s background ease-in;
 }
+
+.rewrite > svg {
+  padding-top: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #4c8196;
+  font-size: 1.5rem;
+}
