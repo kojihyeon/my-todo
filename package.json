@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://github.com/kojihyeon/my-todo/"
+    "homepage": "https://github.com/kojihyeon/my-todo"
   },
   "eslintConfig": {
     "extends": [

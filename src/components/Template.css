@@ -1,15 +1,44 @@
 .Template {
+  position: relative;
   padding-top: 20px;
-  max-height: 100vh;
-  max-width: 1000px;
-  margin: auto;
+  max-width: 500px;
+  min-height:100vh;
+  box-sizing: border-box;
 }
 .title {
-  width: 90vw;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
+  padding:0 0 20px 20px;
   font-size:1.5rem;
+  line-height:1.5rem;
   font-weight:bold;
-  color:#6c567b;
+  color:#7d43a5;
+  box-sizing: border-box;
+}
+
+.todolength {
+  display: inline-block;
+  width:4vw;
+  height:4vw;
+  margin-left:1.5vw;
+  border-radius: 50%;
+  background:#7d43a5;
+  color:#FFF;
+  line-height:4vw;
+  font-size:1.3rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+ .Template {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height:800px;
+    border: 1px solid #DDD;
+    border-radius:2vw;
+    box-shadow:5px 5px 5px #CCC;
+  }
 }

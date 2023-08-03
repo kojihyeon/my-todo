@@ -1,15 +1,16 @@
 .TodoItem {
   margin-left:auto;
   margin-right:auto;
-  border-radius:5px;
+  border-radius:1vw;
   box-shadow:1px 2px 5px 1px #76b5ce;
   padding:1rem;
   display:flex;
   align-items:center;
+  box-sizing: border-box;
 }
 
 .TodoItem + .TodoItem {
-  margin-top:15px;
+  margin-top:3vw;
 }
 
 .content {
@@ -34,4 +35,14 @@
   text-decoration: line-through;
   cursor: pointer;
   opacity:0.6;
+}
+
+@media only screen and (min-width: 500px) {
+  .TodoItem {
+    width: 90%;
+
+  }
+  .TodoItem + .TodoItem {
+    margin-top:15px;
+  }
 }

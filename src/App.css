@@ -1,11 +1,22 @@
 .add-todo-button {
-  position:fixed;
-  right: -5px;
-  bottom: 0;
+  position: fixed;
+  right: 3vw;
+  bottom: 5vw;
   z-index: 100;
-  width: 100px;
-  height: 100px;
+  width: 20vw;
+  height: 20vw;
   cursor: pointer;
-  font-size:5rem;
+  font-size:20vw;
   color:#76b5ce;
+}
+
+@media only screen and (min-width: 500px) {
+  .add-todo-button {
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    width: 100px;
+    height: 100px;
+    font-size:100px;
+  }
 }
